@@ -1,0 +1,40 @@
+header {
+	border-radius: 5px;
+	height: 250px;
+	width: 100%;
+	background: url(../img/hdr.png);
+}
+
+h1 {
+	font-family:'Roboto', sans-serif;
+	font-size:0.5em;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #3D3F3C;
+}
+
+
+@keyframes exp {
+    0%   {background-color:#E03F00; }
+    50%  {background-color:#EFD803;}
+    100% {background-color:#0DC7CC; border-radius: 50%}
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: exp;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	letter-spacing: 1px;
+	background-color: white;
+}
